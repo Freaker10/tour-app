@@ -1,0 +1,16 @@
+[project]
+name = "live-trip-companion"
+version = "0.1.0"
+description = "Live Trip Companion — AI travel assistant for Sri Lanka (MVP)"
+
+[plugins.client]
+port = 5173
+typescript = false
+
+[client.mobile]
+app_name = "Live Trip Companion"
+app_id = "com.livetrip.companion"
+default_platform = "android"
+
+[dependencies.npm]
+clsx = "^2.1.1"
